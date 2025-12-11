@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用户 主页"
+        android:gravity="center"
+        android:textSize="24sp"
+        />
+    <Button
+        android:id="@+id/button_stores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="商城入口"
+        />
+    <Button
+        android:id="@+id/button_storeRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="注册商店"
+        />
+    <Button
+        android:id="@+id/button_goodRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="添加商品"
+        />
+    <Button
+        android:id="@+id/button_orders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="订单查看"
+        />
+</LinearLayout>
